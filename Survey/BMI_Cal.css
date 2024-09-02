@@ -1,0 +1,48 @@
+/* Gradient Header */
+.gradient-header {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Hero Section Button */
+.bg-green-500 {
+    background-color: #38a169;
+    transition: background-color 0.3s ease-in-out; /* Add transition for smooth color change */
+}
+
+.bg-green-500:hover {
+    background-color: #2f855a;
+}
+
+/* Contact Section Button */
+.bg-green-600 {
+    background-color: #2f855a;
+    transition: background-color 0.3s ease-in-out; /* Add transition for smooth color change */
+}
+
+.bg-green-600:hover {
+    background-color: #276749;
+}
+
+/* Footer Links */
+.footer a {
+    color: #cbd5e0;
+}
+
+.footer a:hover {
+    color: #a0aec0;
+}
+
+/* Hero Section Fade-in Effect */
+.hero-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out; /* Smooth fade-in and slide-up effect */
+}
+
+/* Trigger the fade-in effect on page load */
+body.loaded .hero-section {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Ensure the transition only happens after the page is fully loaded */
